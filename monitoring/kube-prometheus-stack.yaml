@@ -20,9 +20,6 @@ spec:
     - repoURL: https://github.com/phuchoang2603/k8s-deploy.git
       targetRevision: master
       ref: values # Reference for $values above
-    - repoURL: https://github.com/phuchoang2603/k8s-deploy.git
-      targetRevision: master
-      path: monitoring/custom
   syncPolicy:
     automated:
       prune: true
